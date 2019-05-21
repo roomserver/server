@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="IISC Server Room temperature">
+<meta name="keywords" content="IISC, CDS Server Room">
+<title>Server Room Temperature</title>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  width: 60%;
+  background-color: white;
+  position: absolute;
+  left: 20%;
+}
+/* Full-width input fields */
+input[type=text], input[type=tel] {
+  width: 100%;
+  padding: 15px; 
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+</style>
+</head>
+<body>
+<br>
+<form action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSdcNyRykEUW_xkVe9qb-f-eEnZ-ebZQyoN3BTSk_YWws0auMQ/formResponse" target="_self" method="POST" >
+  <div class="container">
+    <h1>Register</h1>
+    <p>Please fill in this form to receive notifications.</p>
+    <hr>
+    <label for="FName"><b>First Name</b></label>
+    <input type="text" placeholder="First Name" name="entry.142982577" required>
+
+    <label for="LName"><b>Last Name</b></label>
+    <input type="text" placeholder="Last Name" name="entry.282628306" required>
+
+    <label for="roomno"><b>Server room number</b></label>
+    <input type="tel" placeholder="Server room number" name="entry.1142181434" required>
+
+    <label for="mintemp"><b>Minimum temperature</b></label>
+    <input type="tel" placeholder="Minimum temperature" name="entry.1411458158" required>
+
+    <label for="maxtemp"><b>Maximum temperature</b></label>
+    <input type="tel" placeholder="Maximum temperature" name="entry.825224297" required>
+    
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="entry.277133596" required>
+
+    <label for="number"><b>Mobile number</b></label>
+    <input type="tel" placeholder="Mobile number" name="entry.1997514442" required>
+    <hr>
+
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+</form>
+</body>
+</html>
+
+</body>
+</html>
+
