@@ -8,7 +8,7 @@
 <style>
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: black;
+  /*background-color: black;*/
 }
 
 * {
@@ -21,38 +21,56 @@ body {
   background-color: white;
   position: absolute;
   left: 10%;
-  top: 25%;
+  top: 20%;
+  bottom:30%;
+  
+  
 }
+
 /* Full-width input fields */
 input[type=text], input[type=tel] {
-  width: 100%;
+  width: 80%;
   padding: 15px; 
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
+  display: flex; 
+  border:0.5rem,grey;
+  margin-left: 2rem;
   background: #f1f1f1;
+  margin-bottom: 2rem;
 }
 
 input[type=text]:focus, input[type=password]:focus {
   background-color: #ddd;
   outline: none;
 }
-
+b{
+  margin-bottom: 1.5rem;
+  margin-left: 2rem;
+  display: flex;
+}
+h1{
+  text-align:center;
+}
+p{
+  text-align:center;
+}
 /* Overwrite default styles of hr */
 hr {
   border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
+  
 }
 
 /* Set a style for the submit button */
 .registerbtn {
-  background-color: #4CAF50;
+  background-color:blue;
   color: white;
   padding: 16px 20px;
-  margin: 8px 0;
+  width:20%;
+  margin-left:40%;
+  margin-bottom: 2rem;
   border: none;
   cursor: pointer;
-  width: 100%;
+  
   opacity: 0.9;
 }
 
@@ -62,17 +80,17 @@ hr {
 
 </style>
 </head>
-<body background="back.jpg">
+<body  background="back.jpg">
 <br>
 <form action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSd1Hi3Tuu2ZcA4oDTHY-hGVPQgglfqPrlwuhB64tccOtaXlug/formResponse" target="_self" method="POST">
   <div class="container">
     <h1>Feedback</h1>
     <p>Do let us know about any issues or faulty notifications.</p>
     <hr>
-    <label for="Feed"><b>Feedback</b></label>
+    <label for="Feed"><b>Feedback!</b></label>
     <input type="text" placeholder="Feedback" name="entry.433687916" required>
     <hr>
-    <button type="submit" class="registerbtn">Submit</button>
+    <button type="submit" class="registerbtn" class="primary">Submit</button>
   </div>
 </form>
 </body>
